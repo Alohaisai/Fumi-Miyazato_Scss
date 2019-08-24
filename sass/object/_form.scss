@@ -1,0 +1,66 @@
+.contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #ebf4f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px;
+}
+
+.contact .form{
+  margin: 50px 0 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact .form label{
+  display: block;
+  text-align: left;
+}
+
+.form .name,
+.form .email {
+  margin-top: 10px;
+  display: block;
+  height: 50px;
+  width: 400px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form .name {
+  margin-bottom: 20px;
+}
+
+.form-left {
+  margin-right: 50px;
+}
+
+.form .inquiry {
+  display: block;
+  margin-top: 10px;
+  height: 120px;
+  width: 400px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.contact button {
+  background-color: #1dace0;
+  color: #fff;
+  border: 3px solid #1dace0;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 15px 50px;
+  box-sizing: border-box;
+  transition-duration: 500ms;
+}
+
+.contact button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #1dace0;
+}

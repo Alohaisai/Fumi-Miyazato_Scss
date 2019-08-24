@@ -17,7 +17,7 @@ sass.compiler = require('node-sass');
 gulp.task('sass', function () {
   return gulp.src(['./sass/*.scss', './sass/**/*.scss'], { sourcemaps: true })
     .pipe(sass({
-      outputStyle: 'compressed',
+      outputStyle: 'expanded',
     }))
     //エラーの処理
     .pipe(plumber({

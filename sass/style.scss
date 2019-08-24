@@ -1,0 +1,20 @@
+// foundation用
+@import "foundation/reset",
+        "foundation/variables",
+        "foundation/base";
+
+// layout用
+@import "layout/header",
+        "layout/main",
+        "layout/footer";
+
+// object用
+@import "object/btn",
+        "object/card",
+        "object/form",
+        "object/gallery",
+        "object/margin",
+        "object/nsv",
+        "object/flex",
+        "object/container",
+        "object/main-visual";

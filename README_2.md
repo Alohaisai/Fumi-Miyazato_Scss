@@ -2,8 +2,10 @@
 
 style.scss
 ├── foundation
-│   ├── _base.scss
 │   └── _reset.scss
+|    ── _variables.scss
+│   ├── _base.scss
+
 ├── layout
 │   ├── _footer.scss
 │   ├── _header.scss
@@ -14,7 +16,6 @@ style.scss
     │── _card.scss
     |── _margin.scss
     |── _form.scss
-    |── _variables.scss
     └── _gallery.scss
 
 
